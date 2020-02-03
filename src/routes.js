@@ -1,5 +1,6 @@
 import DashbardPage from "./components/DashbardPage";
 import Product from "./components/Product";
+import AddProduct from "./components/AddProduct";
 
 
 const routes = [
@@ -14,10 +15,18 @@ const routes = [
     {
         path:"/product",
         name:"Product",
-        icon:'dashboard',
+        icon:'shop',
         component: Product,
         page:'/admin',
         show:true
+    },
+    {
+        path:"/addproduct",
+        name:"Add Product",
+        icon:'shop',
+        component:AddProduct,
+        page:'/admin',
+        show:false
     }
 ]
 

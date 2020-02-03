@@ -1,0 +1,8 @@
+.makeStyles-drawerPaper-4{
+    background:  #f5f6f8 !important
+}
+.dashboard-bg{
+    background: url(/assets/imgs/dashboard.svg);
+    display: flex;
+    align-items: center;
+}

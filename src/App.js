@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router,Route,Switch,Redirect} from 'react-router-dom'
 import './App.css';
+import 'antd/dist/antd.css'
 import Admin from './pages/Admin';
 import Login from './pages/Login';
 import AuthState from './context/auth/AuthState';
